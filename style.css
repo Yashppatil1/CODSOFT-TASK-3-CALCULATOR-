@@ -1,0 +1,31 @@
+
+
+
+.display {
+    grid-column: span 4;
+    background-color: #ddd;
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+
+
+.button {
+    background-color: #a69958;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 10px;
+    max-width: 200px;
+    margin: auto;
+}
